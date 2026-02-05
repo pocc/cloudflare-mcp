@@ -18,7 +18,7 @@ The Cloudflare MCP API Server is a **Model Context Protocol (MCP)** server that 
 ## Project Structure
 
 ```
-cf_mcp_api_server/
+cloudflare-mcp/
 ├── src/
 │   ├── index.ts          # Main entry point, MCP server setup, tool registration
 │   ├── api-client.ts     # Cloudflare API client with security features
@@ -188,7 +188,7 @@ npm start       # Run compiled JavaScript
   "mcpServers": {
     "cloudflare": {
       "command": "node",
-      "args": ["/path/to/cf_mcp_api_server/dist/index.js"],
+      "args": ["/path/to/cloudflare-mcp/dist/index.js"],
       "env": {
         "CLOUDFLARE_API_TOKEN": "your-api-token-here"
       }
