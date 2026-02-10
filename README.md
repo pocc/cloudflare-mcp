@@ -51,7 +51,7 @@ This server implements NIST 800-53 Rev. 5 controls for FedRAMP High environments
 ### 1. Install
 
 ```bash
-git clone https://github.com/pocc/cloudlfare-mcp.git
+git clone https://github.com/pocc/cloudflare-mcp.git
 cd cloudflare-mcp
 npm install
 npm run build
